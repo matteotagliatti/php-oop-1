@@ -1,7 +1,6 @@
 <?php
 
-class Movie
-{
+class Movie {
     private string $title;
     private string $description;
     private string $director;
@@ -24,8 +23,6 @@ class Movie
 
 $dune = new Movie('Dune', 'A good sci-fi movie', 'Denis Villenueve', 'Sci-fi', 2021);
 $moonlight = new Movie('Moonlight', 'A heartbreaking story of a young man’s struggle to find himself', 'Barry Jenkins', 'Drama', 2016);
-
-
 
 ?>
 
